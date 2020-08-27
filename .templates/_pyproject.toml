@@ -20,6 +20,7 @@ authors = ["Ben Felder <ben@felder.io>"]
     flake8-debugger = "*"
     flake8-docstrings = "*"
     flake8-eradicate = "*"
+    flake8-pytest-style = "*"
     pep8-naming = "*"
     wemake-python-styleguide = "*"
     darglint = "*"
