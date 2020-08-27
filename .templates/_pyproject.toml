@@ -26,7 +26,7 @@ authors = ["Ben Felder <ben@felder.io>"]
     darglint = "*"
 
     # formatting
-    black = "19.3b0"
+    black = "19.10b0"
     blacken-docs = "*"
     docformatter = "*"
     isort = "*"
