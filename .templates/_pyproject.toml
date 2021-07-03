@@ -24,6 +24,7 @@ authors = ["Ben Felder <ben@felder.io>"]
     pep8-naming = "*"
     wemake-python-styleguide = "*"
     darglint = "*"
+    pyproject-flake8 = "*"
 
     # formatting
     black = "19.10b0"
@@ -63,7 +64,7 @@ known_third_party = []
 line-length = 88
 target_version = ['py38']
 
-[flake8]
+[tool.flake8]
 ignore = ['D100','D101','D102','D103','D107','Q000','Z306']
 exclude = ['.git','__pycache__','docs/source/conf.py','old','build','dist']
 max-complexity = 10
